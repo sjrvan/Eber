@@ -11,7 +11,7 @@ from ..logging import LOGGER
 
 class YukkiBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot")
+        LOGGER(__name__).info(f"Botu Başlat")
         super().__init__(
             "Əkbər Music Bot",
             api_id=config.API_ID,
