@@ -7,20 +7,12 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """✅**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
-**c** stands for channel play.
+*c* Kanal oynatmağı nəzərdə tutur.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
+\n**🕹️ Əmr: /pause və ya /cpause**\n**📜 Açıqlama: Musiqini fasilə ver.**\n**🕹️ Əmr: /resume və ya /cresume**\n**📜 Açıqlama: Dayandırılmış musiqini davam etdirin.**\n**🕹️ Əmr: /mute və ya /cmute**\n**📜 Açıqlama: Musiqinin səsini söndürün.**\n**🕹️ Əmr: /unmute və ya /cunmute**\n**📜 Açıqlama: Musiqinin səsini açın.**\n**🕹️ Əmr: /skip və ya /cskip**\n**📜 Açıqlama: Sıradakı musiqiyə keç.**\n**🕹️ Əmr: /stop və ya /cstop**\n**📜 Açıqlama: Musiqini dayandır.**\n**🕹️ Əmr: /shuffle və ya /cshuffle**\n**📜 Açıqlama: Növbəyə qoyulmuş pleylisti təsadüfi qarışdırın.**\n**🕹️ Əmr: /seek və ya /cseek**\n**📜 Açıqlama: İrəli Musiqini öz müddətinizə qədər axtarın.**\n**🕹️ Əmr: /seekback və ya /cseekback**\n**📜 Açıqlama: Geriyə Musiqini öz müddətinə qədər axtarın.**\n**🕹️ Əmr: /restart**\n**📜 Açıqlama: Yenidən başlat.**
+
 
 
 ✅<u>**Specific Skip:**</u>
