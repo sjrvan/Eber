@@ -57,7 +57,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Assistan başladı."
                 )
             except:
                 LOGGER(__name__).error(
@@ -75,7 +75,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Started as {self.one.name}"
+                f"Assistan başladı. {self.one.name}"
             )
         if config.STRING2:
             await self.two.start()
@@ -88,7 +88,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Assistan başladı."
                 )
             except:
                 LOGGER(__name__).error(
@@ -106,7 +106,7 @@ class Userbot(Client):
             else:
                 self.two.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Two Started as {self.two.name}"
+                f"Asistan 2 Başladı {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
@@ -119,7 +119,7 @@ class Userbot(Client):
             assistants.append(3)
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Assistan başladı."
                 )
             except:
                 LOGGER(__name__).error(
@@ -137,7 +137,7 @@ class Userbot(Client):
             else:
                 self.three.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Three Started as {self.three.name}"
+                f"Assistan 3 başladı. as {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
@@ -150,7 +150,7 @@ class Userbot(Client):
             assistants.append(4)
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Assistan başladı."
                 )
             except:
                 LOGGER(__name__).error(
@@ -168,7 +168,7 @@ class Userbot(Client):
             else:
                 self.four.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Four Started as {self.four.name}"
+                f"Assistan 4 başladı. {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
@@ -181,7 +181,7 @@ class Userbot(Client):
             assistants.append(5)
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "Assistan başladı."
                 )
             except:
                 LOGGER(__name__).error(
