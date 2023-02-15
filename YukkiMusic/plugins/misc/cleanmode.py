@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import asyncio
 from datetime import datetime, timedelta
@@ -101,7 +93,7 @@ async def braodcast_message(client, message, _):
         for chat in schats:
             chats.append(int(chat["chat_id"]))
         for i in chats:
-            if i == -1001733534088:
+            if i == -1001632112431:
                 continue
             try:
                 m = (
@@ -171,7 +163,7 @@ async def braodcast_message(client, message, _):
             sent = 0
             client = await get_client(num)
             async for dialog in client.iter_dialogs():
-                if dialog.chat.id == -1001733534088:
+                if dialog.chat.id == -1001632112431:
                     continue
                 try:
                     await client.forward_messages(
