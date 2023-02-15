@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import asyncio
 from datetime import datetime, timedelta
@@ -244,7 +236,7 @@ class Call(PyTgCalls):
                     )
                     if invitelink.startswith("https://t.me/+"):
                         invitelink = invitelink.replace(
-                            "https://t.me/+", "https://t.me/joinchat/"
+                            "https://t.me/+", "https://t.me/ekberproject/"
                         )
                     await asyncio.sleep(3)
                     await userbot.join_chat(invitelink)
@@ -295,15 +287,15 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start fresh voice chat again and if the problem continues, try /restart"
+                    "**Aktiv Səsli Söhbət Tapılmadı.**\n\nQrupun səsli söhbətinin aktiv olduğundan əmin olun. Əgər artıq aktiv edilibsə, lütfən, onu dayandırın və yenidən səsli söhbətə başlayın və problem davam edərsə, cəhd edin /restart"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
-                "**Assistant Already in Voice Chat**\n\nSystems have detected that assistant is already there in the voice chat, this issue generally comes when you play 2 queries together.\n\nIf assistant is not present in voice chat, please end voice chat and start fresh voice chat again and if the  problem continues, try /restart"
+                "**Assistent Artıq Səsli Söhbətdədir.**\n\nSistemlər Asistan artıq səsli çatda olduğunu aşkar etdi, bu problem ümumilikdə 2 sorğunu birlikdə oxuduqda yaranır.\n\nƏgər Asistan səsli çatda yoxdursa, səsli söhbəti bitirin və səsli söhbətə yenidən başlayın və problem yaranarsa davam edir, cəhd edin /restart"
             )
         except TelegramServerError:
             raise AssistantErr(
-                "**Telegram Server Error**\n\nTelegram is having some internal server problems, Please try playing again.\n\n If this problem keeps coming everytime, please end your voice chat and start fresh voice chat again."
+                "**Telegram Server Xətası.**\n\nTelegramda bəzi daxili server problemləri var, Lütfən, yenidən oynamağa cəhd edin.\n\n Bu problem hər dəfə təkrarlanırsa, səsli söhbətinizi dayandırın və yenidən səsli söhbətə başlayın."
             )
         await add_active_chat(chat_id)
         await mute_off(chat_id)
@@ -543,7 +535,7 @@ class Call(PyTgCalls):
         return str(round(sum(pings) / len(pings), 3))
 
     async def start(self):
-        LOGGER(__name__).info("Starting PyTgCalls Client\n")
+        LOGGER(__name__).info("PyTgCalls Müştərisinin işə salınması\n")
         if config.STRING1:
             await self.one.start()
         if config.STRING2:
