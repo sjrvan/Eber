@@ -208,10 +208,10 @@ song_10 : "Serverlərdən teleqrama yükləmək alınmadı."
 song_11 : "Yükləmə Başladı\n\nYükləmə sürəti yavaş ola bilər. Zəhmət olmasa, saxlayın.."
 
 # Tools - Queue
-queue_1 : "Please Wait..Fetching Queue.."
-queue_2 : "No tracks inside Queue."
-queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
-queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2}\n👤**Added By:** {3}"
+queue_1 : "Zəhmət olmasa gözləyin..Növbəyə alınır.."
+queue_2 : "Növbə daxilində musiqi yoxdur."
+queue_3 : "<u>**Növbəyə qoyulmuş musiqilər:</u>**  [Daha çox növbəyə qoyulmuş musiqiləri buradan yoxlayın]({0})"
+queue_4 : "⏳ Növbəyə əlavə edilib **#{0}\n\n💡Başlıq:** {1}\n**⏱Müddət:** {2}\n👤**Əlavə edib:** {3}"
 
 # All Streaming Lines
 stream_1 : "📡 **Yayım başladı** 💡\n\n👤**Tələb:** {0}\n🔦**Məlumat: **[Burada]({1})"
@@ -273,7 +273,7 @@ PL_B_10 : "🏘 Qrupun ən yaxşı 10 trekini çalın"
 PL_B_11 : "👤 Şəxsi Top 10 treki çalın"
 
 #Settings
-ST_B_1 : "🔊Aud Keyfiyyəti"
+ST_B_1 : "🔊Audo Keyfiyyəti"
 ST_B_2 : "🎥 Video Keyfiyyəti"
 ST_B_3 : "🎩 Auth İstifadəçiləri"
 ST_B_4 : "📱 İdarə paneli"
@@ -327,13 +327,13 @@ sudo_6 : "\n⭐️<u> **Sudo İstifadəçiləri:**</u>\n"
 sudo_7 : "Sudo İstifadəçiləri Yoxdur"
 
 #Block
-block_1 : "{0} is already blocked from the bot."
-block_2 : "Added **{0}** to Block List of bot. User won't be able to use bot now under any condition.\n\nCheck blocked users: /blockedusers"
-block_3 : "User is already free and not blocked."
-block_4 : "Removed User from the block list. User will be able to use bot now."
-block_5 : "No Blocked Users Found"
-block_6 : "Getting Blocked Users List.. Please Wait"
-block_7 : "**Blocked Users:**\n\n"
+block_1 : "{0} artıq botdan bloklanıb."
+block_2 : "Əlavə edilib **{0}** botun Blok Siyahısına. İstifadəçi indi heç bir şərt altında botdan istifadə edə bilməyəcək.\n\nBloklanmış istifadəçiləri yoxlayın: /blockedusers"
+block_3 : "İstifadəçi artıq azaddır və bloklanmayıb."
+block_4 : "İstifadəçi blok siyahısından silindi. İstifadəçi indi botdan istifadə edə biləcək."
+block_5 : "Bloklanmış İstifadəçilər Tapılmadı."
+block_6 : "Bloklanmış İstifadəçilər Siyahısı əldə edilir.. Zəhmət olmasa gözləyin."
+block_7 : "**Bloklanmış İstifadəçilər:**\n\n"
 
 #Blacklist Chats
 block_1 : "{0} artıq botdan bloklanıb."
