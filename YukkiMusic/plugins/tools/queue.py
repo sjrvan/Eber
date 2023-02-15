@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import asyncio
 import os
@@ -97,20 +89,20 @@ async def ping_com(client, message: Message, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
-        if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        "**⌛️Müddət:** Naməlum Müddət Yayımı\n\nBütün növbəyə alınmış siyahını əldə etmək üçün aşağıdakı düyməyə klikləyin."
+        if DUR == "Daxil Ol"
+        else "\nBütün növbəli siyahını əldə etmək üçün aşağıdakı düyməni basın."
     )
-    cap = f"""**{config.MUSIC_BOT_NAME} Player**
+    cap = f"""**{config.MUSIC_BOT_NAME} Oyunçu**
 
-🎥**Playing:** {title}
+🎥**Oynayan:** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+🔗**Yayım növü:** {typo}
+🙍‍♂️**Oynadı:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
-        if DUR == "Unknown"
+        if DUR == "Daxil Ol"
         else queue_markup(
             _,
             DUR,
@@ -124,7 +116,7 @@ async def ping_com(client, message: Message, _):
     mystic = await message.reply_photo(
         IMAGE, caption=cap, reply_markup=upl
     )
-    if DUR != "Unknown":
+    if DUR != "Daxil Ol":
         try:
             while db[chat_id][0]["vidid"] == videoid:
                 await asyncio.sleep(5)
@@ -203,11 +195,11 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     for x in got:
         j += 1
         if j == 1:
-            msg += f'Currently Playing:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Hal-hazırda oynayır:\n\n🏷Başlıq: {x["title"]}\nMüddət: {x["dur"]}\nBy: {x["by"]}\n\n'
         elif j == 2:
-            msg += f'Queued:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'Növbədə:\n\n🏷Başlıq: {x["title"]}\nMüddət: {x["dur"]}\nBy: {x["by"]}\n\n'
         else:
-            msg += f'🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'🏷Başlıq: {x["title"]}\nMüddət: {x["dur"]}\nBy: {x["by"]}\n\n'
     if "Queued" in msg:
         if len(msg) < 700:
             await asyncio.sleep(1)
@@ -277,16 +269,16 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
-        if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        "**⌛️Müddət:** Naməlum Müddət Yayımı\n\nBütün növbəyə alınmış siyahını əldə etmək üçün aşağıdakı düyməyə klikləyin."
+        if DUR == "Daxil Ol"
+        else "\nBütün növbəli siyahını əldə etmək üçün aşağıdakı düyməni basın."
     )
-    cap = f"""**{config.MUSIC_BOT_NAME} Player**
+    cap = f"""**{config.MUSIC_BOT_NAME} Oynuyur**
 
-🎥**Playing:** {title}
+🎥**Oynayan:** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+🔗**Yayım növü:** {typo}
+🙍‍♂️**Oynadı:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, cplay, videoid)
@@ -306,7 +298,7 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
     mystic = await CallbackQuery.edit_message_media(
         media=med, reply_markup=upl
     )
-    if DUR != "Unknown":
+    if DUR != "Daxil Ol":
         try:
             while db[chat_id][0]["vidid"] == videoid:
                 await asyncio.sleep(5)
