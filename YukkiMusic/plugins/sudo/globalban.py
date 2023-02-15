@@ -1,11 +1,4 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+
 import asyncio
 import time
 
@@ -131,7 +124,7 @@ async def gbanned_list(client, message: Message, _):
     if counts == 0:
         return await message.reply_text(_["gban_10"])
     mystic = await message.reply_text(_["gban_11"])
-    msg = "Gbanned Users:\n\n"
+    msg = "Qadağan edilmiş İstifadəçilər:\n\n"
     count = 0
     users = await get_banned_users()
     for user_id in users:
