@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import asyncio
 import importlib
@@ -32,16 +24,16 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("YukkiMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+        LOGGER("Əkbər Music Bot").error(
+            "Asistan Müəyyən edilməyib!.. Prosesdən Çıxış."
         )
         return
     if (
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("YukkiMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+        LOGGER("Əkbər Music Bot").warning(
+            "Heç bir Spotify Versiyası müəyyən edilməyib. Botunuz spotify sorğularını səsləndirə bilməyəcək."
         )
     try:
         users = await get_gbanned()
@@ -56,7 +48,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("YukkiMusic.plugins" + all_module)
     LOGGER("Yukkimusic.plugins").info(
-        "Successfully Imported Modules "
+        "Uğurla Import edilmiş Modullar... "
     )
     await userbot.start()
     await Yukki.start()
@@ -65,17 +57,17 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("YukkiMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+        LOGGER("Əkbər Music Bot").error(
+            "[ERROR] - \n\nZəhmət olmasa Logger Qrupunuzun Səsli Zəngini yandırın. Günlük qrupunuzda səsli zəngi heç vaxt bağlamadığınızdan/bitirmədiyinizdən əmin olun."
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Yukki Music Bot Started Successfully")
+    LOGGER("Əkbər Music Bot").info("Əkbər Musiqi Botu Uğurla Başladı...")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("Əkbər Music Bot").info("Əkbər Musiqi Botunu dayandırın! Əlvida")
