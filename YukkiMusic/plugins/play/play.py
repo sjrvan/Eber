@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import random
 import string
@@ -217,7 +209,7 @@ async def play_commnd(
                 and not config.SPOTIFY_CLIENT_SECRET
             ):
                 return await mystic.edit_text(
-                    "This bot isn't able to play spotify queries. Please ask my owner to enable spotify."
+                    "Bu bot spotify sorğularını oynaya bilmir. Zəhmət olmasa, sahibimdən spotify-ı aktivləşdirməsini xahiş edin."
                 )
             if "track" in url:
                 try:
@@ -338,11 +330,11 @@ async def play_commnd(
                 await Yukki.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
-                    "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
+                    "Botla bağlı problem var. Zəhmət olmasa, bunu sahibimə bildirin və onlardan logger qrupunu yoxlamağı xahiş edin..."
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    "Please turn on Voice Chat.. Bot is not able to stream urls..",
+                    "Xaiş edirəm Səsli söhbəti yandırın. Bot urulləri yayımlaya bilmir..",
                 )
             except Exception as e:
                 return await mystic.edit_text(
@@ -591,7 +583,7 @@ async def play_music(client, CallbackQuery, _):
 async def anonymous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
-            "You're an Anonymous Admin\n\nGo to your group's setting \n-> Administrators List \n-> Click on your name \n-> uncheck REMAIN ANONYMOUS button there.",
+            "Siz Anonim Adminsiniz\n\nQrupunuzun parametrlərinə keçin \n-> Administrator siyahısı \n-> Adınızın üzərinə klikləyin \n-> orada ANONİM QAL düyməsinin işarəsini çıxarın.",
             show_alert=True,
         )
     except:
