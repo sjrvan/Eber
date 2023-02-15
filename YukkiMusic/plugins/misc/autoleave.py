@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import asyncio
 from datetime import datetime
@@ -38,9 +30,9 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001190342892
-                                and chat_id != -1001733534088
-                                and chat_id != -1001443281821
+                                and chat_id != -1001632112431
+                                and chat_id != -1001632112431
+                                and chat_id != -1001632112431
                             ):
                                 if left == 20:
                                     continue
@@ -79,7 +71,7 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        "Bot has left voice chat due to inactivity to avoid overload on servers. No-one was listening to the bot on voice chat.",
+                        "Bot serverlərə həddən artıq yüklənməmək üçün hərəkətsizliyə görə səsli söhbəti tərk edib. Səsli söhbətdə heç kim botu dinləmirdi...",
                     )
                 except:
                     continue
