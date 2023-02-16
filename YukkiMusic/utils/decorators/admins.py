@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -27,7 +19,7 @@ def AdminRightsCheck(mystic):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "Bot is under maintenance. Please wait for some time..."
+                    "Bot təmirdədir. Zəhmət olmasa bir müddət gözləyin..."
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
@@ -45,7 +37,7 @@ def AdminRightsCheck(mystic):
                     [
                         InlineKeyboardButton(
                             text="How to Fix this? ",
-                            callback_data="AnonymousAdmin",
+                            callback_data="Anonim Admin",
                         ),
                     ]
                 ]
@@ -84,7 +76,7 @@ def AdminActual(mystic):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
                 return await message.reply_text(
-                    "Bot is under maintenance. Please wait for some time..."
+                    "Bot təmirdədir. Zəhmət olmasa bir müddət gözləyin..."
                 )
         if await is_commanddelete_on(message.chat.id):
             try:
@@ -101,8 +93,8 @@ def AdminActual(mystic):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to Fix this? ",
-                            callback_data="AnonymousAdmin",
+                            text="Bunu necə düzəltmək olar? ",
+                            callback_data="Anonim Admin",
                         ),
                     ]
                 ]
@@ -129,7 +121,7 @@ def ActualAdminCB(mystic):
         if await is_maintenance() is False:
             if CallbackQuery.from_user.id not in SUDOERS:
                 return await CallbackQuery.answer(
-                    "Bot is under maintenance. Please wait for some time...",
+                    "Bot təmirdədir. Zəhmət olmasa bir müddət gözləyin...",
                     show_alert=True,
                 )
         try:
@@ -137,7 +129,7 @@ def ActualAdminCB(mystic):
             _ = get_string(language)
         except:
             _ = get_string("en")
-        if CallbackQuery.message.chat.type == "private":
+        if CallbackQuery.message.chat.type == "özəl":
             return await mystic(client, CallbackQuery, _)
         is_non_admin = await is_nonadmin_chat(
             CallbackQuery.message.chat.id
