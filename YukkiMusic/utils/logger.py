@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 from config import LOG, LOG_GROUP_ID
 from YukkiMusic import app
@@ -17,15 +9,15 @@ async def play_logs(message, streamtype):
         if message.chat.username:
             chatusername = f"@{message.chat.username}"
         else:
-            chatusername = "Private Group"
+            chatusername = "Şəxsi Qrup"
         logger_text = f"""
-**YUKKI PLAY LOG**
+**ƏKBƏR MUSİC PLAY LOG**
 
-**Chat:** {message.chat.title} [`{message.chat.id}`]
-**User:** {message.from_user.mention}
-**Username:** @{message.from_user.username}
-**User ID:** `{message.from_user.id}`
-**Chat Link:** {chatusername}
+**Qrup:** {message.chat.title} [`{message.chat.id}`]
+**İsdifadəçi:** {message.from_user.mention}
+**İsdifadəçi Adı:** @{message.from_user.username}
+**İsdifadəçi İD:** `{message.from_user.id}`
+**Qrup Link:** {chatusername}
 
 **Query:** {message.text}
 
