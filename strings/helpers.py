@@ -1,6 +1,6 @@
 
 
-HELP_1 = """✅**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
+HELP_1 = """**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 *c* Kanal oynatmağı nəzərdə tutur.
 
@@ -8,18 +8,16 @@ HELP_1 = """✅**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 
 
-✅<u>**🎵Xüsusi Skip:🎵**</u>
-\n**⏯ Əmr: /skip or /cskip [Nömrə (məsələn: 3)] **\n**📜 Açıqlama: Musiqini müəyyən edilmiş növbəli nömrəyə ötürür. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə ötürəcək və növbədəki 1 və 2 musiqiyə məhəl qoymayacaq.**
+<u>**🎵Xüsusi Skip:🎵**</u>
+\n**⏯ Əmr: /skip or /cskip [Nömrə (məsələn: 3)]**\n**📜 Açıqlama: Musiqini müəyyən edilmiş növbəli nömrəyə ötürür. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə ötürəcək və növbədəki 1 və 2 musiqiyə məhəl qoymayacaq.**
 
-✅<u>**🎵Mahnını Təkrarla:🎵**</u>
+<u>**🎵Mahnını Təkrarla:🎵**</u>
 \n**🔂 Əmr: /loop or /cloop [aktivləşdirin/deaktiv edin] və ya [Aralarındakı nömrələr 1-10]**\n**📜 Açıqlama: Aktivləşdirildikdə, bot səsli söhbətdə cari ifa olunan musiqini 1-10 dəfə çevirir. Varsayılan olaraq 10 dəfə.**
 
-✅<u>**Auth İstifadəçiləri:**</u>
+<u>**Auth İstifadəçiləri:**</u>
 \n**📜 Açıqlama: Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.**
 
-/auth [İstifadəçi adı] - Qrupun AUTH LIST-ə istifadəçi əlavə edin.
-/unauth [İstifadəçi adı] - Qrupun AUTH LIST-dən istifadəçini silin.
-/authusers - Qrupun AUTH SİYAHISINI yoxlayın."""
+\n**⏸ Əmr: /auth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-ə istifadəçi əlavə edin.**\n**⏸ Əmr: /unauth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-dən istifadəçini silin.**\n**⏸ Əmr: /authusers**\n**📜 Açıqlama: Qrupun AUTH SİYAHISINI yoxlayın."""**
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
