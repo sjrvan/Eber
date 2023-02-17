@@ -8,20 +8,18 @@ HELP_1 = """✅**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 
 
-✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
+✅<u>**🎵Xüsusi Skip:🎵**</u>
+\n**⏯ Əmr: /skip or /cskip [Nömrə (məsələn: 3)] **\n**📜 Açıqlama: Musiqini müəyyən edilmiş növbəli nömrəyə ötürür. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə ötürəcək və növbədəki 1 və 2 musiqiyə məhəl qoymayacaq.**
 
-✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
+✅<u>**🎵Mahnını Təkrarla:🎵**</u>
+\n**🔂 Əmr: /loop or /cloop [aktivləşdirin/deaktiv edin] və ya [Aralarındakı nömrələr 1-10]**\n**📜 Açıqlama: Aktivləşdirildikdə, bot səsli söhbətdə cari ifa olunan musiqini 1-10 dəfə çevirir. Varsayılan olaraq 10 dəfə.**
 
-✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
+✅<u>**Auth İstifadəçiləri:**</u>
+\n**📜 Açıqlama: Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.**
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
+/auth [İstifadəçi adı] - Qrupun AUTH LIST-ə istifadəçi əlavə edin.
+/unauth [İstifadəçi adı] - Qrupun AUTH LIST-dən istifadəçini silin.
+/authusers - Qrupun AUTH SİYAHISINI yoxlayın."""
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
