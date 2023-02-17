@@ -6,21 +6,19 @@ HELP_1 = """**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 \n**⏸ Əmr: /pause və ya /cpause**\n**📜 Açıqlama: Musiqini fasilə ver.**\n**▶️ Əmr: /resume və ya /cresume**\n**📜 Açıqlama: Dayandırılmış musiqini davam etdirin.**\n**🔇 Əmr: /mute və ya /cmute**\n**📜 Açıqlama: Musiqinin səsini söndürün.**\n**🔊 Əmr: /unmute və ya /cunmute**\n**📜 Açıqlama: Musiqinin səsini açın.**\n**⏯ Əmr: /skip və ya /cskip**\n**📜 Açıqlama: Sıradakı musiqiyə keç.**\n**⏹ Əmr: /stop və ya /cstop**\n**📜 Açıqlama: Musiqini dayandır.**\n**🔀 Əmr: /shuffle və ya /cshuffle**\n**📜 Açıqlama: Növbəyə qoyulmuş pleylisti təsadüfi qarışdırın.**\n**⏩ Əmr: /seek və ya /cseek**\n**📜 Açıqlama: İrəli Musiqini öz müddətinizə qədər axtarın.**\n**⏪ Əmr: /seekback və ya /cseekback**\n**📜 Açıqlama: Geriyə Musiqini öz müddətinə qədər axtarın.**\n**🔃 Əmr: /restart**\n**📜 Açıqlama: Yenidən başlat.**
 
-
-
-<u>**🎵Xüsusi Skip:🎵**</u>
+⏯<u>**Xüsusi Skip:**</u>
 \n**⏯ Əmr: /skip or /cskip [Nömrə (məsələn: 3)]**\n**📜 Açıqlama: Musiqini müəyyən edilmiş növbəli nömrəyə ötürür. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə ötürəcək və növbədəki 1 və 2 musiqiyə məhəl qoymayacaq.**
 
-<u>**🎵Mahnını Təkrarla:🎵**</u>
+🔂<u>**Mahnını Təkrarla:**</u>
 \n**🔂 Əmr: /loop or /cloop [aktivləşdirin/deaktiv edin] və ya [Aralarındakı nömrələr 1-10]**\n**📜 Açıqlama: Aktivləşdirildikdə, bot səsli söhbətdə cari ifa olunan musiqini 1-10 dəfə çevirir. Varsayılan olaraq 10 dəfə.**
 
-<u>**Auth İstifadəçiləri:**</u>
+🤵‍<u>**Auth İstifadəçiləri:**</u>
 \n**📜 Açıqlama: Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.**
 
-\n**⏸ Əmr: /auth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-ə istifadəçi əlavə edin.**\n**⏸ Əmr: /unauth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-dən istifadəçini silin.**\n**⏸ Əmr: /authusers**\n**📜 Açıqlama: Qrupun AUTH SİYAHISINI yoxlayın."""**
+\n**🤵‍♂️ Əmr: /auth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-ə istifadəçi əlavə edin.**\n**🤵‍♂️ Əmr: /unauth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-dən istifadəçini silin.**\n**🤵‍♂️ Əmr: /authusers**\n**📜 Açıqlama: Qrupun AUTH SİYAHISINI yoxlayın."""**
 
 
-HELP_2 = """✅<u>**Play Commands:**</u>
+HELP_2 = """⏸<u>**Oynatma Əmrləri:**</u>
 
 Available Commands = play , vplay , cplay
 
