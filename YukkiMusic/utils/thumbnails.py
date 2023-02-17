@@ -1,11 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
 
 import os
 import re
@@ -42,20 +34,20 @@ async def gen_thumb(videoid):
                 title = re.sub("\W+", " ", title)
                 title = title.title()
             except:
-                title = "Unsupported Title"
+                title = "Dəstəklənməyən Başlıq"
             try:
                 duration = result["duration"]
             except:
-                duration = "Unknown Mins"
+                duration = "Naməlum dəqiqələr"
             thumbnail = result["thumbnails"][0]["url"].split("?")[0]
             try:
                 views = result["viewCount"]["short"]
             except:
-                views = "Unknown Views"
+                views = "Naməlum Baxışlar"
             try:
                 channel = result["channel"]["name"]
             except:
-                channel = "Unknown Channel"
+                channel = "Naməlum Kanal"
 
         async with aiohttp.ClientSession() as session:
             async with session.get(thumbnail) as resp:
