@@ -1,17 +1,10 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+
 
 HELP_1 = """✅**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 *c* Kanal oynatmağı nəzərdə tutur.
 
-\n**🕹️ Əmr: /pause və ya /cpause**\n**📜 Açıqlama: Musiqini fasilə ver.**\n**🕹️ Əmr: /resume və ya /cresume**\n**📜 Açıqlama: Dayandırılmış musiqini davam etdirin.**\n**🕹️ Əmr: /mute və ya /cmute**\n**📜 Açıqlama: Musiqinin səsini söndürün.**\n**🕹️ Əmr: /unmute və ya /cunmute**\n**📜 Açıqlama: Musiqinin səsini açın.**\n**🕹️ Əmr: /skip və ya /cskip**\n**📜 Açıqlama: Sıradakı musiqiyə keç.**\n**🕹️ Əmr: /stop və ya /cstop**\n**📜 Açıqlama: Musiqini dayandır.**\n**🕹️ Əmr: /shuffle və ya /cshuffle**\n**📜 Açıqlama: Növbəyə qoyulmuş pleylisti təsadüfi qarışdırın.**\n**🕹️ Əmr: /seek və ya /cseek**\n**📜 Açıqlama: İrəli Musiqini öz müddətinizə qədər axtarın.**\n**🕹️ Əmr: /seekback və ya /cseekback**\n**📜 Açıqlama: Geriyə Musiqini öz müddətinə qədər axtarın.**\n**🕹️ Əmr: /restart**\n**📜 Açıqlama: Yenidən başlat.**
+\n**⏸ Əmr: /pause və ya /cpause**\n**📜 Açıqlama: Musiqini fasilə ver.**\n**▶️ Əmr: /resume və ya /cresume**\n**📜 Açıqlama: Dayandırılmış musiqini davam etdirin.**\n**🔇 Əmr: /mute və ya /cmute**\n**📜 Açıqlama: Musiqinin səsini söndürün.**\n**🔊 Əmr: /unmute və ya /cunmute**\n**📜 Açıqlama: Musiqinin səsini açın.**\n**⏯ Əmr: /skip və ya /cskip**\n**📜 Açıqlama: Sıradakı musiqiyə keç.**\n**⏹ Əmr: /stop və ya /cstop**\n**📜 Açıqlama: Musiqini dayandır.**\n**🔀 Əmr: /shuffle və ya /cshuffle**\n**📜 Açıqlama: Növbəyə qoyulmuş pleylisti təsadüfi qarışdırın.**\n**⏩ Əmr: /seek və ya /cseek**\n**📜 Açıqlama: İrəli Musiqini öz müddətinizə qədər axtarın.**\n**⏪ Əmr: /seekback və ya /cseekback**\n**📜 Açıqlama: Geriyə Musiqini öz müddətinə qədər axtarın.**\n**🔃 Əmr: /restart**\n**📜 Açıqlama: Yenidən başlat.**
 
 
 
