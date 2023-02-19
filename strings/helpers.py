@@ -89,21 +89,17 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
 /blacklistedchat - Check all blacklisted chats.
 
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
+👤**<u>QADAĞAN OLUNMUŞ FUNKSİYA:</u>**
+\n**⛔️ Əmr: /block**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçinin bot əmrlərindən istifadəsinin qarşısını alır.**\n**✅ Əmr: /unblock**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçini bloklanmışlar siyahısından çıxarın.**\n**📄 Əmr: /blockedusers**\n**📜 Açıqlama: Bloklanmış İstifadəçi Siyahılarını yoxlayın.**
 
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+👤**<u>GLOBAL BAN FUNKSİYASI:</u>**
+\n**⛔️ Əmr: /gban**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçini botun xidmət etdiyi söhbətdən kənarlaşdırın və onun botunuzdan istifadəsini dayandırın.**\n**✅ Əmr: /ungban**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçini Botun qadağan edilmiş Siyahısından çıxarın və ona botunuzdan istifadə etməyə icazə verin.**\n**📄 Əmr: /gbannedusers**\n**📜 Açıqlama: Gbanned İstifadəçi Siyahılarını yoxlayın.**
 
 🎥**<u>VİDEO KALLAR FUNKSİYASI:</u>**
 \n**1️⃣ Əmr: /set_video_limit**\n**📜 Açıqlama: [Söhbətlərin sayı] - Eyni zamanda Video Zənglər üçün icazə verilən maksimum Söhbət sayını təyin edin. Defolt olaraq 3 söhbət.**\n**2️⃣ Əmr: /videomode**\n**📜 Açıqlama: [Yükləyin|m3u8] - Yükləmə rejimi aktivdirsə, Bot videoları M3u8 formasında oynamaq əvəzinə endirəcək. Varsayılan olaraq M3u8-ə. Hər hansı sorğu m3u8 rejimində oxunmayanda yükləmə rejimindən istifadə edə bilərsiniz.**
 
 ⚡️**<u>ŞƏXSİ BOT FUNKSİYASI:</u>**
-\n**1️⃣ Əmr: /authorize**\n**📜 Açıqlama: [Qrup_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
+\n**🆔 Əmr: /authorize**\n**📜 Açıqlama: [Qrup_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
 
 📣**<u>YAYIM FUNKSİYASI:</u>**
 \n**📣 Əmr: /broadcast**\n**📜 Açıqlama: [Mesaj və ya Mesaja Cavab] - İstənilən mesajı Botun Xidmət edilən Çatlarına yayımlayın.**
