@@ -37,11 +37,11 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 ⚙️<u>**Qrup Parametrləri:**</u>
 \n**⚙️ Əmr: /settings**\n**📜 Açıqlama: Daxili düymələrlə tam qrup parametrlərini əldə edin.**
 
-🔗 **Options in Settings:**
+🔧 **Parametrlərdəki seçimlər:**
 
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
+1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Musiqi Keyfiyyətini** təyin edə bilərsiniz.
 
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
+2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Video Keyfiyyətini** təyin edə bilərsiniz.
 
 3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
 
@@ -49,7 +49,7 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
 
-6️⃣ **Play Settings:**
+6️⃣ **Play Parametrləri:**
 
 /playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
 
@@ -99,9 +99,8 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
 /gbannedusers - Check Gbanned Users Lists
 
-🎥**<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+🎥**<u>VİDEO KALLAR FUNKSİYASI:</u>**
+\n**1️⃣ Əmr: /set_video_limit**\n**📜 Açıqlama: [Söhbətlərin sayı] - Eyni zamanda Video Zənglər üçün icazə verilən maksimum Söhbət sayını təyin edin. Defolt olaraq 3 söhbət.**\n**2️⃣ Əmr: /videomode**\n**📜 Açıqlama: [Yükləyin|m3u8] - Yükləmə rejimi aktivdirsə, Bot videoları M3u8 formasında oynamaq əvəzinə endirəcək. Varsayılan olaraq M3u8-ə. Hər hansı sorğu m3u8 rejimində oxunmayanda yükləmə rejimindən istifadə edə bilərsiniz.**
 
 ⚡️**<u>ŞƏXSİ BOT FUNKSİYASI:</u>**
 \n**1️⃣ Əmr: /authorize**\n**📜 Açıqlama: [Qrup_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
