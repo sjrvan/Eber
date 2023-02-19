@@ -23,7 +23,7 @@ HELP_2 = """⏸<u>**Oynatma Əmrləri:**</u>
 \n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanal oynatmağı nəzərdə tutur.**\n**ℹ️ Əmr: **v** **\n**📜 Açıqlama: Video oynatma deməkdir.**\n**ℹ️ Əmr: **force** **\n**📜 Açıqlama: Güc oyunu üçün dayanır.**\n**📡 Əmr: /play or /vplay və ya /cplay**\n**📜 Açıqlama: Bot verdiyiniz sorğunu səsli söhbətdə oynatmağa və ya səsli söhbətlərdə canlı bağlantıları yayımlamağa başlayacaq.**\n**🤵‍ Əmr: /playforce və ya /vplayforce və ya /cplayforce**\n**📜 Açıqlama: **Məcbur Oyun** səsli söhbətdə cari ifa olunan treki dayandırır və növbəni pozmadan/təmizləmədən axtarılan treki dərhal ifa etməyə başlayır.**\n**🤵‍ Əmr: /channelplay**\n**📜 Açıqlama: [Söhbət istifadəçi adı və ya id] və ya [Deaktiv edin] - Kanalı qrupa qoşun və qrupunuzdan kanalın səsli söhbətində musiqi yayımlayın.**
 
 
-✅**<u>⚙️Botun Server mahnı siyahıları:</u>**
+**<u>⚙️Botun Server mahnı siyahıları:</u>**
 \n**📋 Əmr: /playlist**\n**📜 Açıqlama: Serverlərdə Saxlanmış Pleylistinizi Yoxlayın.**\n**📋 Əmr: /deleteplaylist**\n**📜 Açıqlama: Pleylistinizdə saxlanan hər hansı musiqini silin.**\n**⏸ Əmr: /play**\n**📜 Açıqlama: Serverlərdən Saxlanmış Pleylistinizi oynatmağa başlayın.**"""
 
 
@@ -34,8 +34,8 @@ HELP_3 = """⚙️<u>**Bot Əmrləri:**</u>
 HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 \n**🏁 Əmr: /start**\n**📜 Açıqlama: Əkbər Musiqi Botunu işə salın.**\n**📢 Əmr: /help**\n**📜 Açıqlama: Əmrlərin ətraflı izahatları ilə Əmrlər Köməkçisi Menyusunu əldə edin.**\n**ℹ️ Əmr: /ping**\n**📜 Açıqlama: Əkbər Music Botu pingləyin və Botun Ram, CPU və s. statistikasını yoxlayın.**
 
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
+⚙️<u>**Qrup Parametrləri:**</u>
+\n**⚙️ Əmr: /settings**\n**📜 Açıqlama: Daxili düymələrlə tam qrup parametrlərini əldə edin.**
 
 🔗 **Options in Settings:**
 
