@@ -65,9 +65,6 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /addsudo [Username or Reply to a user]
 /delsudo [Username or Reply to a user]
 
-🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
-
 🌐**<u>CONFIG VARS:</u>**
 /get_var - Get a config var from Heroku or .env.
 /del_var - Delete any var on Heroku or .env.
