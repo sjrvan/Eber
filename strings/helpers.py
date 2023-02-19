@@ -61,9 +61,9 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
 
-HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Reply to a user]
-/delsudo [Username or Reply to a user]
+HELP_5 = """🔰**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</u>**
+\n**⛔️ Əmr: /addsudo**\n**📜 Açıqlama: [İstifadəçi adı yazın əlavə edin]**
+\n**⛔️ Əmr: /delsudo**\n**📜 Açıqlama: [İstifadəçi adı silin]**
 
 🌐**<u>CONFIG VARS:</u>**
 /get_var - Get a config var from Heroku or .env.
