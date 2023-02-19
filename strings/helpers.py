@@ -35,27 +35,26 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 /channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
 
 
-✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+✅**<u>Botun Server mahnı siyahıları:</u>**
+/playlist  - Serverlərdə Saxlanmış Pleylistinizi Yoxlayın.
+/deleteplaylist - Pleylistinizdə saxlanan hər hansı musiqini silin
+/play  - Serverlərdən Saxlanmış Pleylistinizi oynatmağa başlayın."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+/stats - Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s..
 
-/sudolist - Check Sudo Users of Yukki Music Bot
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+/lyrics [Musiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/song [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.
 
-/player -  Get a interactive Playing Panel.
+/player -  İnteraktiv Oyun Paneli əldə edin.
 
-**c** stands for channel play.
+**c** Kanalda musıc oynatmağı nəzərdə tutur.
 
-/queue or /cqueue- Check Queue List of Music."""
+/queue or /cqueue- Musiqi Növbə Siyahısını yoxlayın."""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Music Bot.
