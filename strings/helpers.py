@@ -103,13 +103,11 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
 /videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
 
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+⚡️**<u>ŞƏXSİ BOT FUNKSİYASI:</u>**
+\n**1️⃣ Əmr: /authorize**\n**📜 Açıqlama: [Qrup_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
 
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+📣**<u>YAYIM FUNKSİYASI:</u>**
+\n**📣 Əmr: /broadcast**\n**📜 Açıqlama: [Mesaj və ya Mesaja Cavab] - İstənilən mesajı Botun Xidmət edilən Çatlarına yayımlayın.**
 
 <u>options for broadcast:</u>
 **-pin** : This will pin your message 
