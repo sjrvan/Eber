@@ -31,10 +31,8 @@ HELP_3 = """⚙️<u>**Bot Əmrləri:**</u>
 
 \n**📊 Əmr: /stats**\n**📜 Açıqlama: Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s...**\n**🔎 Əmr: /lyrics**\n**📜 Açıqlamsa: [Muiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.**\n**🎵 Əmr: /song**\n**📜 Açıqlama: [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.**\n**⏸ Əmr: /player**\n**📜 Açıqlama: İnteraktiv Oyun Paneli əldə edin.**\n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanalda musıc oynatmağı nəzərdə tutur.**\n**📋 Əmr: /queue və ya /cqueue**\n**📜 Açıqlama: Musiqi Növbə Siyahısını yoxlayın.**"""
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
+\n**🏁 Əmr: /start**\n**📜 Açıqlama: Əkbər Musiqi Botunu işə salın.**\n**📢 Əmr: /help**\n**📜 Açıqlama: Əmrlərin ətraflı izahatları ilə Əmrlər Köməkçisi Menyusunu əldə edin.**\n**ℹ️ Əmr: /ping**\n**📜 Açıqlama: Əkbər Music Botu pingləyin və Botun Ram, CPU və s. statistikasını yoxlayın.**
 
 ✅<u>**Group Settings:**</u>
 /settings - Get a complete group's settings with inline buttons
