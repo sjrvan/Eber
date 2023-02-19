@@ -20,19 +20,7 @@ HELP_1 = """**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 
 HELP_2 = """⏸<u>**Oynatma Əmrləri:**</u>
 
-Available Commands = play , vplay , cplay
-
-ForcePlay Commands = playforce , vplayforce , cplayforce
-
-**c** stands for channel play.
-**v** stands for video play.
-**force** stands for force play.
-
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+\n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanal oynatmağı nəzərdə tutur.**\n**ℹ️ Əmr: **v** **\n**📜 Açıqlama: Video oynatma deməkdir.**\n**ℹ️ Əmr: **force** **\n**📜 Açıqlama: Güc oyunu üçün dayanır.**\n**📡 Əmr: /play or /vplay və ya /cplay**\n**📜 Açıqlama: Bot verdiyiniz sorğunu səsli söhbətdə oynatmağa və ya səsli söhbətlərdə canlı bağlantıları yayımlamağa başlayacaq.**\n**🤵‍ Əmr: /playforce və ya /vplayforce və ya /cplayforce**\n**📜 Açıqlama: **Məcbur Oyun** səsli söhbətdə cari ifa olunan treki dayandırır və növbəni pozmadan/təmizləmədən axtarılan treki dərhal ifa etməyə başlayır.**\n**🤵‍ Əmr: /channelplay**\n**📜 Açıqlama: [Söhbət istifadəçi adı və ya id] və ya [Deaktiv edin] - Kanalı qrupa qoşun və qrupunuzdan kanalın səsli söhbətində musiqi yayımlayın.**
 
 
 ✅**<u>⚙️Botun Server mahnı siyahıları:</u>**
