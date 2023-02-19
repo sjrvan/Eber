@@ -79,15 +79,11 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
 /autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
 
-📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+📈**<u>İSTATİSTİK ƏMRLƏR:</u>**
+\n**🎵 Əmr: /activevoice**\n**📜 Açıqlama: Botda aktiv səsli söhbətləri yoxlayın.**\n**🎥 Əmr: /activevideo**\n**📜 Açıqlama: Botda aktiv video zəngləri yoxlayın.**\n**📈 Əmr: /stats**\n**📜 Açıqlama: Botların statistikasını yoxlayın.**
 
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+⚠️**<u>GRUPLARI QARA SİYAHIYA SALMA  FUNKSİYASI:</u>**
+\n**⛔️ Əmr: /blacklistchat**\n**📜 Açıqlama: [QRUP_İD] - Musiqi Botundan istifadə etməklə bağlı istənilən söhbəti qara siyahıya salın**\n**✅ Əmr: /whitelistchat**\n**📜 Açıqlama: [QRUP_İD] - Musiqi Botundan istifadə etmək üçün qara siyahıya salınmış söhbətləri ağ siyahıya daxil edin**\n**📄 Əmr: /blacklistedchat**\n**📜 Açıqlama: Bütün qara siyahıya alınmış söhbətləri yoxlayın.**
 
 👤**<u>QADAĞAN OLUNMUŞ FUNKSİYA:</u>**
 \n**⛔️ Əmr: /block**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçinin bot əmrlərindən istifadəsinin qarşısını alır.**\n**✅ Əmr: /unblock**\n**📜 Açıqlama: [İstifadəçi adı və ya istifadəçiyə cavab] - İstifadəçini bloklanmışlar siyahısından çıxarın.**\n**📄 Əmr: /blockedusers**\n**📜 Açıqlama: Bloklanmış İstifadəçi Siyahılarını yoxlayın.**
