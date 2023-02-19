@@ -15,7 +15,7 @@ HELP_1 = """**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 🤵‍<u>**Auth İstifadəçiləri:**</u>
 \n**📜 Açıqlama: Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.**
 
-\n**🤵‍♂️ Əmr: /auth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-ə istifadəçi əlavə edin.**\n**🤵‍♂️ Əmr: /unauth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-dən istifadəçini silin.**\n**🤵‍♂️ Əmr: /authusers**\n**📜 Açıqlama: Qrupun AUTH SİYAHISINI yoxlayın."""**
+\n**🤵‍♂️ Əmr: /auth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-ə istifadəçi əlavə edin.**\n**🤵‍♂️ Əmr: /unauth [İstifadəçi adı]**\n**📜 Açıqlama: Qrupun AUTH LIST-dən istifadəçini silin.**\n**🤵‍♂️ Əmr: /authusers**\n**📜 Açıqlama: Qrupun AUTH SİYAHISINI yoxlayın.**"""
 
 
 HELP_2 = """⏸<u>**Oynatma Əmrləri:**</u>
@@ -41,20 +41,9 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 /play  - Serverlərdən Saxlanmış Pleylistinizi oynatmağa başlayın."""
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+HELP_3 = """✅<u>**Bot Əmrləri:**</u>
 
-/stats - Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s..
-
-
-/lyrics [Musiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.
-
-/song [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.
-
-/player -  İnteraktiv Oyun Paneli əldə edin.
-
-**c** Kanalda musıc oynatmağı nəzərdə tutur.
-
-/queue or /cqueue- Musiqi Növbə Siyahısını yoxlayın."""
+\n**📊 Əmr: /stats**\n**📜 Açıqlama: Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s...**\n**🔎 Əmr: /lyrics**\n**📜 Açıqlamsa: [Muiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.**\n**🎵 Əmr: /song**\n**📜 Açıqlama: [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.**\n**⏸ Əmr: /player**\n**📜 Açıqlama: İnteraktiv Oyun Paneli əldə edin.**\n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanalda musıc oynatmağı nəzərdə tutur.**\n**🤵‍♂️ Əmr: /queue və ya /cqueue**\n**📜 Açıqlama: Musiqi Növbə Siyahısını yoxlayın.**"""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Music Bot.
