@@ -43,7 +43,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Əmrləri:**</u>
 
-\n**📊 Əmr: /stats**\n**📜 Açıqlama: Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s...**\n**🔎 Əmr: /lyrics**\n**📜 Açıqlamsa: [Muiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.**\n**🎵 Əmr: /song**\n**📜 Açıqlama: [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.**\n**⏸ Əmr: /player**\n**📜 Açıqlama: İnteraktiv Oyun Paneli əldə edin.**\n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanalda musıc oynatmağı nəzərdə tutur.**\n**🤵‍♂️ Əmr: /queue və ya /cqueue**\n**📜 Açıqlama: Musiqi Növbə Siyahısını yoxlayın.**"""
+\n**📊 Əmr: /stats**\n**📜 Açıqlama: Qlobal Statistikanın ən yaxşı 10 musiqisini əldə edin, botun ən yaxşı 10 istifadəçisi, botda ən yaxşı 10 söhbət, söhbətdə oynanan ən yaxşı 10 və s...**\n**🔎 Əmr: /lyrics**\n**📜 Açıqlamsa: [Muiqi Adı] - Vebdə xüsusi Musiqi üçün Lirikləri axtarır.**\n**🎵 Əmr: /song**\n**📜 Açıqlama: [Musiqi Adı] və ya [YouTube Link] - YouTube-dan mp3 və ya mp4 formatlarında istənilən treki yükləyin.**\n**⏸ Əmr: /player**\n**📜 Açıqlama: İnteraktiv Oyun Paneli əldə edin.**\n**ℹ️ Əmr: **c** **\n**📜 Açıqlama: Kanalda musıc oynatmağı nəzərdə tutur.**\n**📋 Əmr: /queue və ya /cqueue**\n**📜 Açıqlama: Musiqi Növbə Siyahısını yoxlayın.**"""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /start - Start the Music Bot.
