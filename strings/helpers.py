@@ -10,7 +10,7 @@ HELP_1 = """**<u>👮🏼‍♂️Admin Əmrləri:👮🏼‍♂️</u>**
 \n**⏯ Əmr: /skip or /cskip [Nömrə (məsələn: 3)]**\n**📜 Açıqlama: Musiqini müəyyən edilmiş növbəli nömrəyə ötürür. Nümunə: /skip 3 musiqini üçüncü növbəli musiqiyə ötürəcək və növbədəki 1 və 2 musiqiyə məhəl qoymayacaq.**
 
 🔂<u>**Mahnını Təkrarla:**</u>
-\n**🔂 Əmr: /loop or /cloop [aktivləşdirin/deaktiv edin] və ya [Aralarındakı nömrələr 1-10]**\n**📜 Açıqlama: Aktivləşdirildikdə, bot səsli söhbətdə cari ifa olunan musiqini 1-10 dəfə çevirir. Varsayılan olaraq 10 dəfə.**
+\n**🔂 Əmr: /loop or /cloop [enable/deaktiv] və ya [Aralarındakı nömrələr 1-10]**\n**📜 Açıqlama: Aktivləşdirildikdə, bot səsli söhbətdə cari ifa olunan musiqini 1-10 dəfə çevirir. Varsayılan olaraq 10 dəfə.**
 
 🤵‍<u>**Auth İstifadəçiləri:**</u>
 \n**📜 Açıqlama: Auth İstifadəçiləri söhbətinizdə admin hüquqları olmadan admin əmrlərindən istifadə edə bilərlər.**
@@ -61,23 +61,14 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
 
-HELP_5 = """🔰**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</u>**
-\n**⛔️ Əmr: /addsudo**\n**📜 Açıqlama: [İstifadəçi adı yazın əlavə edin]**
-\n**⛔️ Əmr: /delsudo**\n**📜 Açıqlama: [İstifadəçi adı silin]**
+HELP_5 = """👤**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</u>**
+\n**👤 Əmr: /addsudo**\n**📜 Açıqlama: [İstifadəçi adı yazın əlavə edin]**\n**👤 Əmr: /delsudo**\n**📜 Açıqlama: [İstifadəçi adı silin]**
 
-🌐**<u>CONFIG VARS:</u>**
-/get_var - Get a config var from Heroku or .env.
-/del_var - Delete any var on Heroku or .env.
-/set_var [Var Name] [Value] - Set a Var or Update a Var on heroku or .env. Seperate Var and its Value with a space.
+🌐**<u>CONFIG:</u>**
+\n**⛔️ Əmr: /get_var**\n**📜 Açıqlama: Heroku və ya .env-dən konfiqurasiya var əldə edin.**\n**⛔️ Əmr: /del_var**\n**📜 Açıqlama: Heroku və ya .env-də hər hansı bir var silin.**\n**⛔️ Əmr: /set_var**\n**📜 Açıqlama: [Var Name] [Value] Heroku və ya .env-də Var təyin edin və ya Var-ı yeniləyin. Var və onun dəyərini boşluqla ayırın.**
 
-🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
-/update - Update Bot.
-/speedtest - Check server speeds
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
-/autoend [enable|disable] - Enable Auto stream end after 3 mins if no one is listening.
+🤖**<u>ƏKBƏR MUSIC BOT ƏMRƏLƏRİ:</u>**
+\n**🔃 Əmr: /reboot**\n**📜 Açıqlama: Botunuzu yenidən başladın.** \n**♻️ Əmr: /update**\n**📜 Açıqlama: Botu yeniləyin.**\n**📶 Əmr: /speedtest**\n**📜 Açıqlama: Server sürətlərini yoxlayın.**\n**📴 Əmr: /maintenance**\n**📜 Açıqlama: [enable/deaktiv]** \n**⚠️ Əmr: /logger**\n**📜 Açıqlama: [enable/deaktiv] - Bot axtarış edilmiş sorğuları qeyd edən qrupda qeyd edir.**\n**🔧 Əmr: /get_log**\n**📜 Açıqlama: [Xətlərin sayı] - Heroku və ya vps-dən botunuzun qeydini əldə edin. Hər ikisi üçün işləyir.**\n**📡 Əmr: /autoend**\n**📜 Açıqlama: [enable/deaktiv] - Heç kim qulaq asmırsa, 3 dəqiqədən sonra avtomatik yayımın bitməsini aktiv edin.**
 
 📈**<u>İSTATİSTİK ƏMRLƏR:</u>**
 \n**🎵 Əmr: /activevoice**\n**📜 Açıqlama: Botda aktiv səsli söhbətləri yoxlayın.**\n**🎥 Əmr: /activevideo**\n**📜 Açıqlama: Botda aktiv video zəngləri yoxlayın.**\n**📈 Əmr: /stats**\n**📜 Açıqlama: Botların statistikasını yoxlayın.**
@@ -95,7 +86,7 @@ HELP_5 = """🔰**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</
 \n**1️⃣ Əmr: /set_video_limit**\n**📜 Açıqlama: [Söhbətlərin sayı] - Eyni zamanda Video Zənglər üçün icazə verilən maksimum Söhbət sayını təyin edin. Defolt olaraq 3 söhbət.**\n**2️⃣ Əmr: /videomode**\n**📜 Açıqlama: [Yükləyin|m3u8] - Yükləmə rejimi aktivdirsə, Bot videoları M3u8 formasında oynamaq əvəzinə endirəcək. Varsayılan olaraq M3u8-ə. Hər hansı sorğu m3u8 rejimində oxunmayanda yükləmə rejimindən istifadə edə bilərsiniz.**
 
 ⚡️**<u>ŞƏXSİ BOT FUNKSİYASI:</u>**
-\n**🆔 Əmr: /authorize**\n**📜 Açıqlama: [Qrup_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
+\n**🆔 Əmr: /authorize**\n**📜 Açıqlama: [QRUP_İD] - Botunuzdan istifadə etmək üçün söhbətə icazə verin.**\n**2️⃣ Əmr: /unauthorize**\n**📜 Açıqlama: [Qrup_İd] - Söhbətin botunuzdan istifadəsinə icazə verməyin.**\n**3️⃣ Əmr: /authorized**\n**📜 Açıqlama: Botunuzun bütün icazə verilən söhbətlərini yoxlayın.**
 
 📣**<u>YAYIM FUNKSİYASI:</u>**
 \n**📣 Əmr: /broadcast**\n**📜 Açıqlama: [Mesaj və ya Mesaja Cavab] - İstənilən mesajı Botun Xidmət edilən Çatlarına yayımlayın.**
