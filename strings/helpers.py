@@ -39,27 +39,15 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 🔧 **Parametrlərdəki seçimlər:**
 
-1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Musiqi Keyfiyyətini** təyin edə bilərsiniz.
+\n**1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz (Musiqi Keyfiyyətini) təyin edə bilərsiniz.**\n**2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz (Video Keyfiyyətini) təyin edə bilərsiniz.**\n**3️⃣ (Auth İstifadəçiləri)  Admin əmrləri rejimini buradan hamıya və ya yalnız adminlərə dəyişə bilərsiniz. Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**4️⃣ (Təmiz rejimi) Aktiv olduqda, söhbətinizin təmiz və yaxşı qalmasına əmin olmaq üçün botun mesajlarını 5 dəqiqədən sonra qrupunuzdan silir.**\n**5️⃣ (Təmizləmə əmri)  Aktivləşdirildikdə, Bot icra etdiyi əmrləri (/play, /pause, /shuffle, /stop , /stop və s.) dərhal siləcək..**
 
-2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Video Keyfiyyətini** təyin edə bilərsiniz.
+\n**6️⃣ **Play Parametrləri:** **
 
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+\n**⛔️ Əmr: /playmode**\n**📜 Açıqlama: Qrupunuzun oyun parametrlərini təyin edə biləcəyiniz düymələri olan tam ifa parametrləri paneli əldə edin.**
 
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
+<u>Oyun rejimində seçimlər:</u>
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
-
-6️⃣ **Play Parametrləri:**
-
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
-
-<u>Options in playmode:</u>
-
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
-
-2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
-
-3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
+\n**1️⃣ (Axtarış rejimi) [Birbaşa və ya Daxil] - Siz /oyun rejimini verərkən axtarış rejiminizi dəyişir.**\n**2️⃣ (Admin Əmrləri) [Hər kəs və ya Adminlər] - Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**3️⃣ (Oynatma Növü) [Hər kəs və ya Adminlər] - Adminlərsə, yalnız qrupda olan adminlər səsli çatda musiqi oxuya bilər.**"""
 
 HELP_5 = """👤**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</u>**
 \n**👤 Əmr: /addsudo**\n**📜 Açıqlama: [İstifadəçi adı yazın əlavə edin]**\n**👤 Əmr: /delsudo**\n**📜 Açıqlama: [İstifadəçi adı silin]**
