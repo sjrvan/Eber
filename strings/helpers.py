@@ -100,4 +100,6 @@ HELP_5 = """👤**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</
 
 **Example:** `/broadcast -user -assistant -pin Hello Testing`
 
+
+**<u>©️ ƏKBƏR MUSİC BOT MÜƏLLİF HÜQUQLARI TAMAMƏN QORUNUR: ƏKBƏR</u>**
 """
