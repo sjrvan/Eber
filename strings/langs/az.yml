@@ -87,9 +87,9 @@ settings_5 : "Heç bir Səlahiyyətli İstifadəçi Tapılmadı\n\nSiz hər hans
 settings_9 : "⁉️ Bu nədir?\n\nAktivləşdirildikdə, Bot söhbətinizi təmiz və aydın etmək üçün {0} sonra mesajını siləcək."
 settings_10 : "⁉️ Bu nədir?\n\n1) Qrup: Komandanın verildiyi qrupda musiqi ifa edir .\n\n2) Kanal: İstədiyiniz kanalda musiqi oxuyur. /channelplay vasitəsilə kanal id-sini təyin edin."
 settings_11 : "⁉️ Bu nədir?\n\n1) Hər kəs: Bu qrupda olan hər kəs burada musiqi ifa edə bilər.\n\n2) Yalnız Admin: Bu qrupda musiqini yalnız adminlər ifa edə bilər."
-settings_12 : "❌ Kanal rejimi üçün müəyyən edilmiş kanal id-si yoxdur. Lütfən, /channelplay ilə müəyyən edin."
+settings_12 : "⛔️ Kanal rejimi üçün müəyyən edilmiş kanal id-si yoxdur. Lütfən, /channelplay ilə müəyyən edin."
 settings_13 : "Aktiv qrup zəngində ifa rejimini dəyişmək mümkün deyil. Lütfən, əvvəlcə /stop ilə səsli söhbəti dayandırın."
-settings_14 : "⁉️ Bu nədir?\n\nAktivləşdirildikdə, Bot icra etdiyi əmrləri (/oynat, /pauza, /qarışdır, /dayan və s.) dərhal siləcək.\n\nBunun üçün bot admindən mesajların silinməsini tələb edəcək. düzgün işləyin."
+settings_14 : "⁉️ Bu nədir?\n\nAktivləşdirildikdə, Bot icra etdiyi əmrləri (/play, /pauze, /shuffle, /stop və s.) dərhal siləcək.\n\nBunun üçün bot admindən mesajların silinməsini tələb edəcək. düzgün işləyin."
 settings_15 : "Peer həll edilmədi, kanalınıza bot əlavə etdiyinizə və onu admin kimi tanıtdığınıza əmin olun.\n\nYenidən /channelplay-ı quraşdırmağa cəhd edin.."
 
 set_cb_1 : "Səs Keyfiyyəti Paneli əldə edilir..."
@@ -139,7 +139,7 @@ play_7 : "Bağışlayın! Bot CPU-nun həddən artıq yüklənməsi problemləri
 play_8 : "Etibarlı Video Fayl Genişlənməsi Deyil!\n\n**Dəstəklənən Formatlar:** {0}"
 play_9 : "Videonun Fayl Ölçüsü 1 GiB-dən Az Olmalıdır"
 play_10 : "**Youtube Pleylist Xüsusiyyəti**\n\nBütün Youtube Pleylistini oxutmaq istədiyiniz Rejimi seçin"
-play_11 : "📎Başlıq: **{0}\n\n⏳Müddət:** {1} Dəqiqə"
+play_11 : "⚜️Başlıq: **{0}\n\n⏳Müddət:** {1} Dəqiqə"
 play_12 : "**Spotify Play Mode**\n\nTələb:- {0}"
 play_13 : "**Apple Playlists**\n\nTələb:- {0}"
 play_14 : "**URL-i yoxlamaq mümkün olmadı.**\nBot bu url-in aşağıdakı platformalardan hər hansı birinə aid olub-olmaması ilə maraqlanır: Youtube, AppleMusic, Spotify, Resso və Soundcloud.\n\nM3u8 və ya Uzaqdan Linklər üçün /stream istifadə edə bilərsiniz. ."
@@ -150,7 +150,7 @@ play_18 : "**Heç bir Aktiv Səsli Söhbət Tapılmadı**\n\nZorla oxutmaqdan is
 
 
 #Playlist
-playlist_1 : "**İstifadə:** /oyun [Musiqi Adı və ya Youtube Linki və ya Audioya Cavab]\n\nƏgər Botun Server Pleylistini oynamaq istəyirsinizsə! Aşağıdakı düyməni basın."
+playlist_1 : "**İstifadə:** /play [Musiqi Adı və ya Youtube Linki və ya Audioya Cavab]\n\nƏgər Botun Server Pleylistini oynamaq istəyirsinizsə! Aşağıdakı düyməni basın."
 playlist_2 : "Pleylistiniz alınır. Lütfən gözləyin"
 playlist_3 : "Bot serverində pleylistiniz yoxdur."
 playlist_4 : "Gətirilmiş pleylist:\n\n"
@@ -179,7 +179,7 @@ str_2 : "✅ Etibarlı Yayım Doğrulandı\n\nLütfən, linkin işlənilməsini 
 str_3 : "YouTube canlı yayımlarını yayımlamaq mümkün deyil. Canlı Format Tapılmadı"
 
 #TopPlay
-tracks_1 : "**{0} Ən Yaxşı 10 Pleylist işlənilir**\nBu, bir neçə dəqiqə çəkə bilər (təxminən 3-4 dəqiqə).. Lütfən, gözləyin...\n\n**👤Tələb:** {1}\n\nTop 10 treki /gstats"
+tracks_1 : "**{0} Ən Yaxşı 10 Pleylist işlənilir**\nBu, bir neçə dəqiqə çəkə bilər (təxminən 3-4 dəqiqə).. Lütfən, gözləyin...\n\n**👤Tələb edən:** {1}\n\nTop 10 treki /gstats"
 tracks_2 : "**Xəta**\n\nBotun serverlərində **{0} Top 10 Pleylist** yoxdur. Lütfən, hər hansı digər pleylistə cəhd edin"
 
 # TOOLS
@@ -187,7 +187,7 @@ tracks_2 : "**Xəta**\n\nBotun serverlərində **{0} Top 10 Pleylist** yoxdur. L
 #Lyrics
 lyrics_1 : "**İstifadə:**\n\n/lyrics [ Musiqi Adı]"
 lyrics_2 : "Lirika Axtarıram"
-lyrics_3 : "❌ Mahnı sözləri əldə etmək alınmadı😭.\n\n💡**Axtarmağa cəhd edilib:** {0}"
+lyrics_3 : "⛔️ Mahnı sözləri əldə etmək alınmadı😭.\n\n🔎**Axtarmağa cəhd edilib:** {0}"
 lyrics_4 : "Uzun spam tipli sözlər axtarışından qaçmaq üçün aşağıdakı düyməyə klikləyin və axtarılan sözləri əldə edin."
 
 #Ping
@@ -198,7 +198,7 @@ ping_1: "Pong !!!!"
 song_1 : "YouTube'dan Musiqi və ya Videonu yalnız şəxsi söhbətdə endirə bilərsiniz. Zəhmət olmasa, şəxsi söhbətdə mənə başlayın."
 song_2 : "**İstifadə:**\n\n/mahnı [Musiqi Adı] və ya [Youtube Linki]"
 song_3 : "Canlı Link Aşkarlandı. Mən canlı youtube videolarını endirə bilmirəm."
-song_4 : "**🔗Başlıq:**- {0}\n\nEndirmək istədiyiniz növü seçin."
+song_4 : "**⚜️Başlıq:**- {0}\n\nEndirmək istədiyiniz növü seçin."
 song_5 : "Etibarlı Youtube Linki deyil"
 song_6 : "Formatlar əldə edilir.. \n\nLütfən, gözləyin.."
 song_7 : "Video üçün mövcud formatları əldə etmək alınmadı. Lütfən, hər hansı digər treki sınayın."
@@ -208,13 +208,13 @@ song_10 : "Serverlərdən teleqrama yükləmək alınmadı."
 song_11 : "Yükləmə Başladı\n\nYükləmə sürəti yavaş ola bilər. Zəhmət olmasa, saxlayın.."
 
 # Tools - Queue
-queue_1 : "Zəhmət olmasa gözləyin..Növbəyə alınır.."
+queue_1 : "Zəhmət olmasa 5 saniyə gözləyin... Növbəyə alınır..."
 queue_2 : "Növbə daxilində musiqi yoxdur."
 queue_3 : "<u>**Növbəyə qoyulmuş musiqilər:</u>**  [Daha çox növbəyə qoyulmuş musiqiləri buradan yoxlayın]({0})"
-queue_4 : "⏳ Növbəyə əlavə edilib **#{0}\n\n💡Başlıq:** {1}\n**⏱Müddət:** {2}\n👤**Əlavə edib:** {3}"
+queue_4 : "⏳ Növbəyə əlavə edilib **#{0}\n\n⚜️Başlıq:** {1}\n**⏱Müddət:** {2}\n👤**Əlavə edib:** {3}"
 
 # All Streaming Lines
-stream_1 : "📡 **Yayım başladı** 💡\n\n👤**Tələb:** {0}\n🔦**Məlumat: **[Burada]({1})"
+stream_1 : "📡 **Yayım başladı** 💡\n\n👤**Tələb edən:** {0}\n🔦**Məlumat: **[Burada]({1})"
 stream_2 : "📡 **URL vasitəsilə yayıma başladı ** 💡\n\n👤**Tələb edən:** {0}"
 stream_3 : "📡 **Yayım başladı** 💡\n\n**🏷Başlıq:** {0}\n⌛️**Müddət**: {1}\n👤**Tələb:** {2} "
 stream_4 : "📡 **Yayım başladı** 💡\n\n**🏷Başlıq:** [{0}]({1})\n⌛️**Müddət**: {2}\n👤**Tələb olundu Müəllif:** {3}"
@@ -254,7 +254,7 @@ PM_B_2: "Daxili İşarələmə"
 PM_B_3: "Kanal Oynatma"
 
 #Play
-P_B_1 : "🎵 Audio Play"
+P_B_1 : "🎵 Musiqi Oynat"
 P_B_2 : "🎥 Videonu Oynat"
 P_B_3 : "🏮 Canlı Yayımı Başlat"
 P_B_4 : "🎵 Play Playlist"
@@ -273,7 +273,7 @@ PL_B_10 : "🏘 Qrupun ən yaxşı 10 trekini çalın"
 PL_B_11 : "👤 Şəxsi Top 10 treki çalın"
 
 #Settings
-ST_B_1 : "🔊Audo Keyfiyyəti"
+ST_B_1 : "🔊 Musiqi Keyfiyyəti"
 ST_B_2 : "🎥 Video Keyfiyyəti"
 ST_B_3 : "🎩 Auth İstifadəçiləri"
 ST_B_4 : "📱 İdarə paneli"
