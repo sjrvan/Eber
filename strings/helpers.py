@@ -39,7 +39,7 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 🔧 **Parametrlərdəki seçimlər:**
 
-\n**1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz (Musiqi Keyfiyyətini) təyin edə bilərsiniz.**\n**2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz (Video Keyfiyyətini) təyin edə bilərsiniz.**\n**3️⃣ (Auth İstifadəçiləri)  Admin əmrləri rejimini buradan hamıya və ya yalnız adminlərə dəyişə bilərsiniz. Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**4️⃣ (Təmiz rejimi) Aktiv olduqda, söhbətinizin təmiz və yaxşı qalmasına əmin olmaq üçün botun mesajlarını 5 dəqiqədən sonra qrupunuzdan silir.**\n**5️⃣ (Təmizləmə əmri)  Aktivləşdirildikdə, Bot icra etdiyi əmrləri (/play, /pause, /shuffle, /stop , /stop və s.) dərhal siləcək..**
+\n**1️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Musiqi Keyfiyyətini** təyin edə bilərsiniz.**\n**2️⃣ Siz səsli söhbətdə yayımlamaq istədiyiniz **Video Keyfiyyətini** təyin edə bilərsiniz.**\n**3️⃣ **Auth İstifadəçiləri :**  Admin əmrləri rejimini buradan hamıya və ya yalnız adminlərə dəyişə bilərsiniz. Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**4️⃣ **Təmiz rejimi : ** Aktiv olduqda, söhbətinizin təmiz və yaxşı qalmasına əmin olmaq üçün botun mesajlarını 5 dəqiqədən sonra qrupunuzdan silir.**\n**5️⃣ **Təmizləmə əmri :**  Aktivləşdirildikdə, Bot icra etdiyi əmrləri (/play, /pause, /shuffle, /stop , /stop və s.) dərhal siləcək..**
 
 \n**6️⃣ **Play Parametrləri:** **
 
@@ -47,7 +47,7 @@ HELP_4 = """🗒<u>**Əlavə əmrlər:**</u>
 
 <u>Oyun rejimində seçimlər:</u>
 
-\n**1️⃣ (Axtarış rejimi) [Birbaşa və ya Daxil] - Siz /oyun rejimini verərkən axtarış rejiminizi dəyişir.**\n**2️⃣ (Admin Əmrləri) [Hər kəs və ya Adminlər] - Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**3️⃣ (Oynatma Növü) [Hər kəs və ya Adminlər] - Adminlərsə, yalnız qrupda olan adminlər səsli çatda musiqi oxuya bilər.**"""
+\n**1️⃣ **Axtarış rejimi** [Birbaşa və ya Daxil] - Siz /play rejimini verərkən axtarış rejiminizi dəyişir.**\n**2️⃣ **Admin Əmrləri** : [Hər kəs və ya Adminlər] - Əgər hər kəs, qrupunuzda olan hər kəs admin əmrlərindən istifadə edə biləcək (məsələn, /skip, /stop və s.)**\n**3️⃣ **Oynatma Növü :** [Hər kəs və ya Adminlər] - Adminlərsə, yalnız qrupda olan adminlər səsli çatda musiqi oxuya bilər.**"""
 
 HELP_5 = """👤**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</u>**
 \n**👤 Əmr: /addsudo**\n**📜 Açıqlama: [İstifadəçi adı yazın əlavə edin]**\n**👤 Əmr: /delsudo**\n**📜 Açıqlama: [İstifadəçi adı silin]**
@@ -79,14 +79,14 @@ HELP_5 = """👤**<u>SUDO İSTİFADƏÇİLƏRİNİ ƏLAVƏ EDİN VƏ SİLİN :</
 📣**<u>YAYIM FUNKSİYASI:</u>**
 \n**📣 Əmr: /broadcast**\n**📜 Açıqlama: [Mesaj və ya Mesaja Cavab] - İstənilən mesajı Botun Xidmət edilən Çatlarına yayımlayın.**
 
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
+📡<u>Yayım Növləri:</u>
+**-pin** : Bu, mesajınızı sabitləyəcək
+**-pinloud** : Bu, mesajınızı yüksək səsli bildirişlə bağlayacaq
+**-user** : Bu, mesajınızı botunuzu işə salmış istifadəçilərə yayımlayacaq.
+**-assistant** : Bu, mesajınızı botun köməkçi hesabından yayımlayacaq.
+**-nobot** : Bu, botunuzu mesaj yayımlamamağa məcbur edəcək
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+**Example:** `/broadcast -user -assistant -pin Salam qeyd mesajı belə yazılır...`
 
 
 **<u>©️ ƏKBƏR MUSİC BOT MÜƏLLİF HÜQUQLARI TAMAMƏN QORUNUR: ƏKBƏR</u>**
